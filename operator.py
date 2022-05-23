@@ -1,7 +1,7 @@
 x = 10
 y = 20
 
-if x > 0 and y > 0:
+#fill the and operator
     print('Both x and y are positive numbers')
 
 # or operator:
@@ -9,9 +9,9 @@ if x > 0 and y > 0:
 x = 10
 y = 20
 
-if x > 0 or y > 0:
+#fill the or operator
     print('At least one of x and y is positive number')
 
 a = 37
-if not (a % 3 == 0 or a % 4 == 0):
+#use modulo operator
     print('37 is not divisible by either 3 or 4')
